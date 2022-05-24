@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/*----------------------------------------
+SOBREESCRIBIENDO  LOS ESTILOS DE BOOTSTRAP
+------------------------------------------*/
+
+.text-primary
+{
+  color: #22DA12  !important;
+}
+
+.btn-primary 
+{
+  background-color: #07A6FB !important;
+  border-color: #000000 !important;
+  color: #000000 !important;
+}
+
+.btn-primary:focus
+{
+  background-color: #000000 !important; 
+  color: #07A6FB !important;
+}
+
+.btn-primary:active
+{
+  background-color: #07A6FB !important;
+  border-color: #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+
+.btn-primary:focus
+{
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(127, 127, 100, 0.5) !important;
+          box-shadow: 0 0 0 0.2rem rgba(127, 127, 127, 0.5) !important;
+}
+
+.navbar-dark
+{
+  background-color: #000000 !important ;
+}
+.navbar-light
+{
+  background-color: #FFFFFF !important ;
+
+}
+
+.text-success {
+  --bs-text-opacity: 1;
+  color: #01F7E5 !important;
+}
+.carousel-inner{
+  display:flex !important;
+  align-content: center !im;
+  vertical-align: middle !important;
+}
+.img-thumbnail{
+  border-color: rgb(42, 92, 0);
+  background-color: rgb(0, 0, 0);
+}
+.img-thumbnail-dark{
+  border-color: rgb(255,255,255);
+  background-color: rgb(0, 0, 0);
+}
+/*--------------------------
+ESTILOS DEL DISEÑO
+---------------------------*/
+html 
+{
+  font-size: 15px;
+}
+
+body 
+h1{
+  color: #000000;
+  }
+
+
+
